@@ -38264,6 +38264,20 @@
 	},
 	{
 		"flint": {
+			"name": "booleanKeys",
+			"plugin": "yaml",
+			"status": "skipped"
+		},
+		"eslint": [
+			{
+				"name": "yml/no-boolean-key",
+				"url": "https://ota-meshi.github.io/eslint-plugin-yml/rules/no-boolean-key.html"
+			}
+		],
+		"notes": "Covered by stringMappingKeys."
+	},
+	{
+		"flint": {
 			"name": "emptyDocuments",
 			"plugin": "yaml",
 			"preset": "logical",
@@ -38511,7 +38525,8 @@
 		"flint": {
 			"name": "stringMappingKeys",
 			"plugin": "yaml",
-			"preset": "logicalStrict"
+			"preset": "logical",
+			"status": "implemented"
 		},
 		"eslint": [
 			{
@@ -38530,6 +38545,20 @@
 			{
 				"name": "yml/no-tab-indent",
 				"url": "https://ota-meshi.github.io/eslint-plugin-yml/rules/no-tab-indent.html"
+			}
+		],
+		"notes": "Formatting rule."
+	},
+	{
+		"flint": {
+			"name": "trailingSpaces",
+			"plugin": "yaml",
+			"status": "skipped"
+		},
+		"eslint": [
+			{
+				"name": "yml/no-trailing-spaces",
+				"url": "https://ota-meshi.github.io/eslint-plugin-yml/rules/no-trailing-spaces.html"
 			}
 		],
 		"notes": "Formatting rule."
