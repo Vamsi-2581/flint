@@ -35224,7 +35224,7 @@
 	},
 	{
 		"flint": {
-			"name": "contentOutsideBlocks",
+			"name": "contentLocation",
 			"plugin": "vue",
 			"status": "skipped"
 		},
